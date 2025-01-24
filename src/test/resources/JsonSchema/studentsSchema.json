@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "education": {
+      "type": "object",
+      "properties": {
+        "graduation": {
+          "type": "string"
+        },
+        "postGraduation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "graduation",
+        "postGraduation"
+      ]
+    },
+    "dob": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "number"
+        },
+        "month": {
+          "type": "string"
+        },
+        "year": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "date",
+        "month",
+        "year"
+      ]
+    },
+    "studentaddress": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "permanentAddress": {
+          "type": "object",
+          "properties": {
+            "pincode": {
+              "type": "number"
+            },
+            "state": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "pincode",
+            "state",
+            "city"
+          ]
+        },
+        "currentAddress": {
+          "type": "object",
+          "properties": {
+            "pincode": {
+              "type": "number"
+            },
+            "state": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "pincode",
+            "state",
+            "city"
+          ]
+        }
+      },
+      "required": [
+        "country",
+        "permanentAddress",
+        "currentAddress"
+      ]
+    },
+    "gender": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "fullName",
+    "education",
+    "dob",
+    "studentaddress",
+    "gender"
+  ]
+}

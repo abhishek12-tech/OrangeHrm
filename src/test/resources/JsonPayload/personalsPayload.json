@@ -1,0 +1,22 @@
+{
+	"createpersonals": {
+		"firstName": "Rohit",
+		"lastName": "Shinde",
+		"address": {
+			"city": "Pune",
+			"state": "MH",
+			"country": "INDIA",
+			"pincode": 112233
+		}
+	},
+	"updatepersonals": {
+		"firstName": "anand",
+		"lastName": "Shinde",
+		"address": {
+			"city": "Pune",
+			"state": "MH",
+			"country": "INDIA",
+			"pincode": 33444
+		}
+	}
+}

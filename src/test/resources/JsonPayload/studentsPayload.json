@@ -1,0 +1,54 @@
+{
+	"createstudent": {
+		"fullName": "Akshay Mankar",
+		"education": {
+			"graduation": "BCA",
+			"postGraduation": "MC"
+		},
+		"dob": {
+			"date": 20,
+			"month": "Feb",
+			"year": 2000
+		},
+		"studentaddress": {
+			"country": "India",
+			"permanentAddress": {
+				"pincode": 1112233,
+				"state": "MH",
+				"city": "Pune"
+			},
+			"currentAddress": {
+				"pincode": 332244,
+				"state": "MH",
+				"city": "Pune"
+			}
+		},
+		"gender": true
+	},
+	"updatestudent": {
+		"fullName": "Abhishek Patel",
+		"education": {
+			"graduation": "BE",
+			"postGraduation": "M.Tech"
+		},
+		"dob": {
+			"date": 5,
+			"month": "Dec",
+			"year": 2001
+		},
+		"studentaddress": {
+			"country": "India",
+			"permanentAddress": {
+				"pincode": 112233,
+				"state": "MH",
+				"city": "Pune"
+			},
+			"currentAddress": {
+				"pincode": 332244,
+				"state": "MH",
+				"city": "Pune"
+			}
+		},
+		"gender": true
+	}
+}

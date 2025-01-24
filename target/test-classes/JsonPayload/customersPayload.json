@@ -1,0 +1,24 @@
+{
+	"createcustomer": {
+		"fullName": "Rohit Chavan",
+		"email": "rohit@citi.com",
+		"phone": "55555",
+		"gender": true,
+		"product_price": 20009.99,
+		"city": "Pune",
+		"pincode": 444433,
+		"state": "MH",
+		"country": "INDIA"
+	},
+	"updatecustomer": {
+		"fullName": "Madhuri Chavan",
+		"email": "Madhuri@citi.com",
+		"phone": "555555",
+		"gender": false,
+		"product_price": 1111,
+		"city": "Mumbai",
+		"pincode": 112233,
+		"state": "MH",
+		"country": "INDIA"
+	}
+}
