@@ -6,7 +6,6 @@ public interface StudentsEndpoints {
 
 	final String GET_STUDENT = "/students/{id}";
 
-	final String GET_All_STUDENT = "/students";
 
 	// Query Parameter
 	final String GET_All_STUDENT_AS_PER_CONDITION = "/students";
